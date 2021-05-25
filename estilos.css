@@ -1,0 +1,20 @@
+
+body{
+    color: rgb(245, 241, 241);
+}
+
+
+section{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkcyan;
+    align-items: center;
+}
+.botao{
+    background-color: greenyellow;
+}
+
+    
