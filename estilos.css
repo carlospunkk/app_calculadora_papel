@@ -1,6 +1,7 @@
 
 body{
     color: rgb(245, 241, 241);
+    margin-top: 0rem;
 }
 
 
@@ -12,9 +13,29 @@ section{
     height: 100vh;
     background-color: darkcyan;
     align-items: center;
+    margin-top: 0em;
 }
 .botao{
     background-color: greenyellow;
 }
+#pnormal{
+    color: rgb(238, 245, 241);
+    }
+    #descontofull{
+        color: rgb(234, 241, 234);
+    }
+    #malt , #mlarg , #mpreco{
+        
+        color: yellowgreen;
 
-    
+        }
+
+        #descontofull{
+            color: yellow;
+            background-color: black;
+        }
+#config{
+    justify-content: center;
+    text-align: center;
+}       
+

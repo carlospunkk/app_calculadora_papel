@@ -14,21 +14,24 @@
 <body>
 <section>
     <div class=" tela_principal ">
-            <p>digite sua medida altura</p>
+            <p id="malt">digite sua medida altura</p>
             <input id = "altura" type = "number" placeholder="altura"/>
-            <p>digite sua medida largura</p>
+            <p id = "mlarg">digite sua medida largura</p>
             <input id = "largura" type = "number" placeholder="largura"/>
-            <p>digite o preço do rolo </p>
+            <p id="mpreco">digite o preço do rolo </p>
             <input id = "preco" type = "number" placeholder="R$-----"/><br></br>
             <input class = "botao" onclick="Calcular()" type = "button" value="Calcular"/>
             <input class = "limp"  onclick="limpar()" type = "button" value="limpar"/>
+            <input class="resete"  onclick="reset()" type ="button" value="reset">
+            <p id="config">
             <p id = result></p>
-            <P id="quantidaderolo">qtd</P>
+            <P id="quantidaderolo"></P>
             <p id="calcu"></p>
-            <p id="pnormal">tot</p>
+            <p id="pnormal"></p>
             <p id="desc"></p>
             <p id="d"></p>
-            <p id="descontofull"></p>
+            <p id="descontofull"></p><br></br>
+            </p>
             
     </div>
 </section>

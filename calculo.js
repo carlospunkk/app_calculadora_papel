@@ -26,19 +26,19 @@ function Calcular(){
     var norm = window.document.getElementById("pnormal")
     var instalacao = 109.00
     var norma = (instalacao + precocx)*(Math.ceil(qtd_papel))
-    norm.innerHTML= (` o valor total instalado é  R$: ${norma}`)
+    norm.innerHTML= ("o valor total instalado é  R$: "+ norma.toFixed(2).replace('.',','))
 
     if (qtd_papel >=2){
         var d = window.document.getElementById("descontofull")
         var desc = window.document.getElementById("desc")
         var inst_desc = 99.00
         desc=(inst_desc+precocx)*(Math.ceil(qtd_papel))
-        d.innerHTML=(`Parabéns você comprou 2 rolos ou mais e ganhou um desconto na instalação R$ ${desc} `)
+        d.innerHTML=( " Parabéns você comprou 2 rolos ou mais e ganhou um desconto na instalação R$:"+ desc.toFixed(2).replace('.',','))
         }else{
             var norm = window.document.getElementById("pnormal")
             var instalacao = 109.00
             var norma = (instalacao + precocx)*(Math.ceil(qtd_papel))
-            norm.innerHTML= (` o valor total instalado é  R$: ${norma}`)
+            norm.innerHTML= ("o valor total instalado é  R$"+norma.toFixed(2).replace('.',','))
         }
 
     
@@ -49,5 +49,11 @@ function Calcular(){
     document.getElementById('altura').value ='';
     document.getElementById('largura').value ='';
     document.getElementById('preco').value ='';
-  }
+    }
+  
+  
+  
+  
+
+  
     
